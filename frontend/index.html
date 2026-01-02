@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Is It Down?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🔍 Is It Down?</h1>
+    <p>Check if a website is reachable</p>
+
+    <div class="form">
+      <input
+        type="text"
+        id="urlInput"
+        placeholder="https://example.com"
+      />
+      <button id="checkBtn">Check</button>
+    </div>
+
+    <div id="result" class="result hidden"></div>
+
+    <h3>Last checks</h3>
+    <ul id="history"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
